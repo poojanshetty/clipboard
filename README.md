@@ -1,4 +1,4 @@
-# Copy-Clipboard
+# Clipboard
 Copy-Clipboard is a simple practice project aimed at providing a command-line interface for managing clipboard data using a JSON file as storage.
 
 ## Features
