@@ -9,22 +9,28 @@ Copy-Clipboard is a simple practice project aimed at providing a command-line in
 - JSON File Management: Utilize a JSON file (clipboard.json by default) to store clipboard data persistently.
 
 ## Usage
-Saving Data:
+
+## Run the script:
 
 ```
-python copy_clipboard.py save
+python main.py [command]
+```
+## Saving Data:
+
+```
+python main.py save
 ```
 
 ## Loading Data:
 
 ```
-python copy_clipboard.py load
+python main.py load
 ```
 
 
-Listing Data:
+## Listing Data:
 ```
-python copy_clipboard.py list
+python main.py list
 ```
 
 ## Requirements:
@@ -44,8 +50,4 @@ git clone https://github.com/your_username/copy-clipboard.git
 pip install clipboard
 ```
 
-## Run the script:
 
-```
-python copy_clipboard.py [command]
-```
